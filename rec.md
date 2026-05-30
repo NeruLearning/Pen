@@ -1,2 +1,0 @@
-Vulkan
-window INK, WINTAB
