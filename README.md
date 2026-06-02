@@ -55,13 +55,13 @@ g++ src/main.cpp src/window.cpp src/Canvas/canvas.cpp -o build/main.exe \
 
 ## Architecture
 
-pen.hpp       →  Windows Pointer API, reads hardware data
-stroke.hpp    →  Collects a complete stroke (begin/add/end)
-canvas.cpp    →  Manages pixel buffer, calls Brush
-brush.hpp     →  Paints pixels (Bresenham, circles)
-bezier.hpp    →  Smooths strokes via cubic Bézier curves
-window.cpp    →  GLFW window, uploads canvas as OpenGL texture
-main.cpp      →  Event loop, connects all components
+pen.hpp       →  Windows Pointer API, reads hardware data  
+stroke.hpp    →  Collects a complete stroke (begin/add/end)  
+canvas.cpp    →  Manages pixel buffer, calls Brush  
+brush.hpp     →  Paints pixels (Bresenham, circles)  
+bezier.hpp    →  Smooths strokes via cubic Bézier curves  
+window.cpp    →  GLFW window, uploads canvas as OpenGL texture  
+main.cpp      →  Event loop, connects all components  
 
 
 
