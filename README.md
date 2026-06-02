@@ -2,7 +2,7 @@
 
 
 # Pen-Whiteboard for Windows
-a digital Whiteboard with pen input, writte in C++
+a digital Whiteboard with pen input, written in C++
 
 ## Features
 
@@ -73,9 +73,9 @@ main.cpp      →  Event loop, connects all components
 | Pen move | Draw |
 | Pen up | End stroke |
 | `S` key | Toggle Bézier smoothing |
-
+```
 ## Technical Details
-
+```
 - Canvas resolution: dynamic (monitor resolution)
 - Pixel format: RGBA 8-bit
 - Rendering: OpenGL texture on fullscreen quad
