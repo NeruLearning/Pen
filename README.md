@@ -14,10 +14,10 @@ a digital Whiteboard with pen input, written in C++
 
 ## Requirements
 
-Windows 10 or higher
-MinGW-W64 (g++ 13.x)
-Vulkan SDK
-GLFW 3.4
+- Windows 10 or higher
+- MinGW-W64 (g++ 13.x)
+- Vulkan SDK
+- GLFW 3.4
 
 ## Project Structure
 ```
